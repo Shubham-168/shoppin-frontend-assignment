@@ -1,0 +1,16 @@
+.watch-preview {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .preview-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .watch-image {
+    font-size: 18px;
+  }
+  

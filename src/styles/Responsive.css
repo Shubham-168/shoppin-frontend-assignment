@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    .customization-page {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      order: 2;
+    }
+  
+    .main-content {
+      width: 100%;
+      order: 1;
+    }
+  }
+  

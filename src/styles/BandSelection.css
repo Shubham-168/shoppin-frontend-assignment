@@ -1,0 +1,66 @@
+.band-selection {
+    margin: 20px 0;
+  }
+  
+  .band-types {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .band-type-btn {
+    padding: 10px;
+    border: none;
+    background: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .band-type-btn.active {
+    background: #000;
+    color: #fff;
+  }
+  
+  .band-colors {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .band-color-btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .band-color-btn:hover {
+    transform: scale(1.2);
+  }
+  
+  .band-color-btn.black {
+    background-color: #000;
+  }
+  
+  .band-color-btn.white {
+    background-color: #fff;
+    border: 1px solid #000;
+  }
+  
+  .band-color-btn.blue {
+    background-color: #007aff;
+  }
+  
+  .band-color-btn.red {
+    background-color: #ff3b30;
+  }
+  
+  .band-color-btn.green {
+    background-color: #34c759;
+  }
+  
+  .band-color-btn.pink {
+    background-color: #ff2d55;
+  }
+  

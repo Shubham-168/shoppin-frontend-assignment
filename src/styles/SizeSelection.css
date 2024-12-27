@@ -1,0 +1,23 @@
+.size-selection {
+    margin: 20px 0;
+  }
+  
+  .size-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .size-btn {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .size-btn:hover {
+    background-color: #e5e5e5;
+    transform: scale(1.05);
+  }
+  
